@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img {
+    height: 200px;
+}
+
+.manu {
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.manu a {
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: rgb(250, 248, 248);
+    height: 150px;
+    width: 90PX;
+}
+
+.manu :hover {
+    color: red;
+}
+
+.paragraph {
+    margin: 10px 150px;
+}
